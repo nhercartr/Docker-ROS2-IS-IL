@@ -6,8 +6,6 @@ IMAGE_NAME="nvcr.io/nvidia/isaac-lab:2.3.2"
 CURRENT_DIR="$(pwd)"
 DIR_NAME=$(basename "$CURRENT_DIR")
 
-# Abrimos los permisos para poder leer con el usuario del docker
-chmod -R 777 $ISAAC_SIM_DIR
 
 # 3. Dar permisos al entorno gráfico
 xhost +local:

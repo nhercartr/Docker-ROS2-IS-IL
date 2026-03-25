@@ -6,9 +6,6 @@ IMAGE="nvcr.io/nvidia/isaac-sim:5.1.0"
 CURRENT_DIR="$(pwd)"
 DIR_NAME=$(basename "$CURRENT_DIR")
 
-# 3. Dar permisos públicos a tus carpetas locales para que el usuario 1234 pueda escribir
-chmod -R 777 $ISAAC_SIM_DIR
-
 # 2. Dar permisos locales para la ventana gráfica
 xhost +local:
 
