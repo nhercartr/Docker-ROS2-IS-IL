@@ -14,6 +14,7 @@ COPY fastdds.xml /opt/ros/fastdds.xml
 
 # 4. Instalar herramientas limpias (sin paquetes incompatibles)
 RUN apt-get update && apt-get install -y \
+    git \
     ros-humble-joint-state-publisher-gui \
     ros-humble-ros2-control \
     ros-humble-ros2-controllers \
@@ -28,6 +29,13 @@ RUN apt-get update && apt-get install -y \
     python3-lark \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
+
+
+    WORKDIR /opt/unitree
+    RUN git clone https://github.com/unitreerobotics/unitree_sdk2_python.git && \
+        cd unitree_sdk2_python && \
+        pip install -e .
+
 
 # 5. Configurar variables de entorno clave (ROS y DDS)
 ENV ROS_DOMAIN_ID=0
