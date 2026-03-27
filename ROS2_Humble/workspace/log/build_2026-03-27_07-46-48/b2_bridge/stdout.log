@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating b2_bridge.egg-info
+writing b2_bridge.egg-info/PKG-INFO
+writing dependency_links to b2_bridge.egg-info/dependency_links.txt
+writing entry points to b2_bridge.egg-info/entry_points.txt
+writing requirements to b2_bridge.egg-info/requires.txt
+writing top-level names to b2_bridge.egg-info/top_level.txt
+writing manifest file 'b2_bridge.egg-info/SOURCES.txt'
+reading manifest file 'b2_bridge.egg-info/SOURCES.txt'
+writing manifest file 'b2_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/b2_ws/install/b2_bridge/lib/python3.10/site-packages/b2-bridge.egg-link (link to .)
+Installing bridge_exe script to /workspace/b2_ws/install/b2_bridge/lib/b2_bridge
+
+Installed /workspace/b2_ws/build/b2_bridge
+running symlink_data
+creating /workspace/b2_ws/install/b2_bridge/share/ament_index
+creating /workspace/b2_ws/install/b2_bridge/share/ament_index/resource_index
+creating /workspace/b2_ws/install/b2_bridge/share/ament_index/resource_index/packages
+symbolically linking /workspace/b2_ws/build/b2_bridge/resource/b2_bridge -> /workspace/b2_ws/install/b2_bridge/share/ament_index/resource_index/packages
+symbolically linking /workspace/b2_ws/build/b2_bridge/package.xml -> /workspace/b2_ws/install/b2_bridge/share/b2_bridge

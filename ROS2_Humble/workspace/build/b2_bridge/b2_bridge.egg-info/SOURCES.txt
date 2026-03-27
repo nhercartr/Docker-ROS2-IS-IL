@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+b2_bridge/__init__.py
+b2_bridge/bridge_node.py
+b2_bridge.egg-info/PKG-INFO
+b2_bridge.egg-info/SOURCES.txt
+b2_bridge.egg-info/dependency_links.txt
+b2_bridge.egg-info/entry_points.txt
+b2_bridge.egg-info/requires.txt
+b2_bridge.egg-info/top_level.txt
+b2_bridge.egg-info/zip-safe
+resource/b2_bridge

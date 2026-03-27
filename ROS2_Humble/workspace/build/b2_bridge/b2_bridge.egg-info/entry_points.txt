@@ -1,0 +1,3 @@
+[console_scripts]
+bridge_exe = b2_bridge.bridge_node:main
+

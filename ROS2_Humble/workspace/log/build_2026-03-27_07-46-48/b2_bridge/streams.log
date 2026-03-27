@@ -1,0 +1,24 @@
+[0.389s] Invoking command in '/workspace/b2_ws/build/b2_bridge': PYTHONPATH=/workspace/b2_ws/build/b2_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/b2_ws/install/b2_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/b2_ws/build/b2_bridge/build --no-deps symlink_data
+[0.533s] running develop
+[0.599s] running egg_info
+[0.599s] creating b2_bridge.egg-info
+[0.599s] writing b2_bridge.egg-info/PKG-INFO
+[0.599s] writing dependency_links to b2_bridge.egg-info/dependency_links.txt
+[0.599s] writing entry points to b2_bridge.egg-info/entry_points.txt
+[0.599s] writing requirements to b2_bridge.egg-info/requires.txt
+[0.599s] writing top-level names to b2_bridge.egg-info/top_level.txt
+[0.600s] writing manifest file 'b2_bridge.egg-info/SOURCES.txt'
+[0.601s] reading manifest file 'b2_bridge.egg-info/SOURCES.txt'
+[0.601s] writing manifest file 'b2_bridge.egg-info/SOURCES.txt'
+[0.602s] running build_ext
+[0.602s] Creating /workspace/b2_ws/install/b2_bridge/lib/python3.10/site-packages/b2-bridge.egg-link (link to .)
+[0.603s] Installing bridge_exe script to /workspace/b2_ws/install/b2_bridge/lib/b2_bridge
+[0.603s] 
+[0.603s] Installed /workspace/b2_ws/build/b2_bridge
+[0.603s] running symlink_data
+[0.603s] creating /workspace/b2_ws/install/b2_bridge/share/ament_index
+[0.603s] creating /workspace/b2_ws/install/b2_bridge/share/ament_index/resource_index
+[0.603s] creating /workspace/b2_ws/install/b2_bridge/share/ament_index/resource_index/packages
+[0.603s] symbolically linking /workspace/b2_ws/build/b2_bridge/resource/b2_bridge -> /workspace/b2_ws/install/b2_bridge/share/ament_index/resource_index/packages
+[0.603s] symbolically linking /workspace/b2_ws/build/b2_bridge/package.xml -> /workspace/b2_ws/install/b2_bridge/share/b2_bridge
+[0.628s] Invoked command in '/workspace/b2_ws/build/b2_bridge' returned '0': PYTHONPATH=/workspace/b2_ws/build/b2_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/b2_ws/install/b2_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/b2_ws/build/b2_bridge/build --no-deps symlink_data
