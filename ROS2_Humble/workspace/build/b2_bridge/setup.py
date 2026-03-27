@@ -1,1 +1,0 @@
-/workspace/b2_ws/src/b2_bridge/setup.py
